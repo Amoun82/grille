@@ -1,0 +1,292 @@
+h1
+{
+    color: red;
+    text-align: center;
+}
+
+#conteneur
+{
+    border: 1px solid black;
+    width: 95%;
+    height: 700px;
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    padding:10px ;
+    text-align: center;
+}
+
+#conteneur2
+{
+    border: 1px solid black;
+    width: 95%;
+    height: 700px;
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    padding:10px ;
+    text-align: center;
+}
+
+.general1,.general,.general2,.general3
+{
+    border: 1px dashed ;
+    /*padding: 15% 0 ;*/
+}
+
+/* grille */
+.un
+{
+    grid-column: 1 ;
+    grid-row: 1 ;   
+}
+
+.deux
+{
+    grid-column: 2 ;
+    grid-row: 1 ;   
+}
+
+.trois
+{
+    grid-column: 3 ;
+    grid-row: 1 ;   
+}
+
+.quatre
+{
+    grid-column: 1 ;
+    grid-row: 2 ;   
+}
+
+.cinq
+{
+    grid-column: 2 ;
+    grid-row: 2 ;   
+}
+
+.six
+{
+    grid-column: 3 ;
+    grid-row: 2 ;   
+}
+
+.sept
+{
+    grid-column: 1 ;
+    grid-row: 3 ;   
+}
+
+.huit
+{
+    grid-column: 2 ;
+    grid-row: 3 ;   
+}
+
+.neuf
+{
+    grid-column: 3 ;
+    grid-row: 3 ;   
+}
+
+/* grille inversée */
+.un1
+{
+    grid-column: 1 ;
+    grid-row: 3 ;   
+}
+
+.deux1
+{
+    grid-column: 2 ;
+    grid-row: 3 ;   
+}
+
+.trois1
+{
+    grid-column: 3 ;
+    grid-row: 3 ;   
+}
+
+.quatre1
+{
+    grid-column: 1 ;
+    grid-row: 2 ;   
+}
+
+.cinq1
+{
+    grid-column: 2 ;
+    grid-row: 2 ;   
+}
+
+.six1
+{
+    grid-column: 3 ;
+    grid-row: 2 ;   
+}
+
+.sept1
+{
+    grid-column: 1;
+    grid-row: 1;   
+}
+
+.huit1
+{
+    grid-column: 2;
+    grid-row: 1;   
+}
+
+.neuf1
+{
+    grid-column: 3;
+    grid-row: 1;   
+}
+
+/* autre exemple */
+.un2
+{
+    border: 1px solid red;
+    grid-column: 2/4;
+    grid-row: 1/2;   
+}
+
+.deux2
+{
+    border: 1px solid green;
+    grid-column: 4;
+    grid-row: 2/3;   
+}
+
+.trois2
+{
+    border: 1px solid red;
+    grid-column: 1/3;
+    grid-row: 3/4;   
+}
+
+.quatre2
+{
+    border: 1px solid red;
+    grid-column: 3/4;
+    grid-row: 3/5;   
+}
+
+/* autre exemple avec 16 div */
+.un3
+{
+    grid-column: 1/2;
+    grid-row: 1/2;   
+}
+
+.deux3
+{
+    border: 1px solid red;
+    background-color: red;
+    margin: 10px;
+    grid-column: 2/4;
+    grid-row: 1/2;   
+}
+
+.trois3
+{
+    border: 1px solid lightgreen;
+    background-color: darkred;
+    margin: 10px;
+    grid-column: 3/4;
+    grid-row: 1/2;   
+}
+
+.quatre3
+{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.cinq3
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.six3
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.sept3
+{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.huit3
+{
+    margin: 10px;
+    border: 1px solid green;
+    background-color: green;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.neuf3
+{
+    border: 1px solid red;
+    background-color: red;
+    margin: 10px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+.dix3
+{
+    border: 1px solid lightgreen;
+    background-color: darkred;
+    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.onze3
+{
+    border: 1px solid red;
+    background-color: red;
+    margin: 10px;
+    grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+.douze3
+{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.treize
+{
+    grid-column:1/2;
+    grid-row: 4/5;
+}
+
+.quartoze3
+{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.quinze3
+{
+    border: 1px solid lightgreen;
+    background-color: darkred;
+    margin: 10px;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.seize3
+{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
